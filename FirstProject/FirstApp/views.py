@@ -119,3 +119,6 @@ def hello(request):
 
 def gitview(req):
     return HttpResponse("<h1>hello from git-view</h1><hr /">);
+
+def githubview(req):
+    return HttpResponse("<h1>hello from github-view</h1><hr /">);
